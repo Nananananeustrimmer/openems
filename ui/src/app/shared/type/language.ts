@@ -36,7 +36,7 @@ export class Language {
     public static readonly JA: Language = new Language("Japanese", "ja", "ja", ja, localJA);
 
     public static readonly ALL = [Language.DE, Language.EN, Language.CZ, Language.NL, Language.ES, Language.FR, Language.JA];
-    public static readonly DEFAULT = Language.DE;
+    public static readonly DEFAULT = Language.NL;
 
     public static getByKey(key: string): Language | null {
         for (const language of Language.ALL) {
